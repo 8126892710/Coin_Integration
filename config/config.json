@@ -1,0 +1,38 @@
+{
+	"project_name" : "coin_integration",
+	"version" : "v1",
+	"base_url" : "http://localhost:5000/",	
+	"secret_key":"secr@tk@y",
+	"db":{
+		"host":"localhost:27017",
+		"name":"coinIntegration"		
+    },
+    "Qtumcoin": {
+        "testnet": {
+          "username": "umesh",
+          "password": "umesh",
+          "network": "testnet",
+          "port": 13889
+        },
+        "mainnet": {
+          "username": "umesh",
+          "password": "umesh",
+          "network": "testnet",
+          "port": 13889
+        }
+      },
+      "Bytecoin": {
+        "testnet": {
+          "username": "umesh",
+          "password": "verma",
+          "network": "testnet",
+          "port": 8070
+        },
+        "mainnet": {
+          "username": "umesh",
+          "password": "verma",
+          "network": "testnet",
+          "port": 8070
+        }
+      }
+}

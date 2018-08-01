@@ -1,0 +1,74 @@
+===========
+Qtum Coin Doc :-
+===================
+
+Go to this link and Download Linux-64-bit version on this site
+link:- https://qtumeco.io/wallet
+
+
+extract this zip file
+zip file:-qtum-linux-gnu-latest.tar.gz
+file:-qtum-0.14.16
+
+Go to the path of this folder and follow these commands on ubantu terminal:-
+cd bin
+./qtumd -daemon -testnet -rpcuser=umesh -rpcpassword=umesh  (for daemon start)
+./qtum-cli -testnet -rpcuser=umesh -rpcpassword=umesh getblockcount (for count block count)
+
+find doc in terminal:-
+./qtum-cli -testnet -rpcuser=umesh -rpcpassword=umesh listunspent
+
+for get qtum coin:-
+link:-http://testnet-faucet.qtum.info/#!/
+
+Run the code and start the server:- 
+hit all api's on rest client
+
+for get test tokens:- (enter address of account on this link)
+link:- http://testnet-faucet.qtum.info/#!/ 
+for block count:-
+https://explorer.qtum.org/
+
+search for qtum coin transaction:-
+link:- https://testnet.qtum.org/address/qMb5zQxoP5HshHMN2GZ3Q7HkRvoFBxuvnk
+==============================================
+
+Byte Coin Doc:-
+===================
+Go to this link and Download MacOS version on this site
+link:- https://bytecoin.org/downloads (Bytecoin Daemons)
+
+extract this zip file
+zip file:- bytecoin-daemons-3.1.1-macos.zip
+file:- bytecoin-daemons-3.1.1-macos
+
+Go to the path of this folder and follow these commands on ubantu terminal:-
+./walletd
+./walletd --bytecoind-bind-address=127.0.0.1:8081
+./walletd --bytecoind-bind-address=127.0.0.1:8081 --wallet-file=rohit
+
+for get all methods of bytecoin of this link:-
+link:- https://wiki.bytecoin.org/wiki/Bytecoin_RPC_Wallet_JSON_RPC_API
+
+https://github.com/bcndev/bytecoin/wiki/Bytecoin-Wallet-Daemon-JSON-RPC-API
+
+https://wiki.bytecoin.org/wiki/Create_address_-_Bytecoin_RPC_Wallet_API
+
+https://www.npmjs.com/package/wallet-module (wallet module)
+===============
+
+
+ankit : -qMb5zQxoP5HshHMN2GZ3Q7HkRvoFBxuvnk (24.00000000)
+uv :- qdM8JstrjZL4DrYkpkkk4hmGhMqPTqsib9 (69.00000000)
+
+
+
+time:-
+current time online:-
+https://currentmillis.com/
+
+epix time online:-
+https://www.epochconverter.com/
+
+time convert :-
+https://www.unixtimestamp.com/index.php
